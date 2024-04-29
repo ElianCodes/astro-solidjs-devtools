@@ -1,5 +1,5 @@
 ---
-
+import Counter from '../components/Counter'
 ---
 
 <html lang="en">
@@ -8,9 +8,12 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Astro + Solid / Solid devtools</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<h1>Astro + Solid Counter</h1>
+		<p>The following is a <a href="https://solidjs.com/">SolidJS</a> component rendered in <a href="https://astro.build">Astro</a> with <a href="https://github.com/thetarnav/solid-devtools">the Solid Devtools</a> enabled.</p>
+		<Counter client:load />
+		<p>Built by <a href="https://www.elian.codes/">ElianCodes</a></p>
 	</body>
 </html>
