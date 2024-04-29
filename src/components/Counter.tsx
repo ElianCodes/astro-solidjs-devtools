@@ -1,5 +1,4 @@
 import { createSignal } from "solid-js";
-import "solid-devtools";
 import CountButton from "./CountButton";
 
 export default function Counter() {
